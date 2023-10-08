@@ -34,7 +34,7 @@ function checkGuess() {
   if (attempts <= 0) {
     document.getElementById(
       "message"
-    ).textContent = `Anda kalah. Idola TikTok yang benar adalah ${targetIdol}.`;
+    ).textContent = `Anda kalah.`;
     document.getElementById("guess").setAttribute("disabled", "true");
     document.querySelector("button").setAttribute("disabled", "true");
   }
